@@ -1,10 +1,4 @@
-//import { useRouter } from 'next/router';
 import React from 'react';
-
-
-
-
-
 export async function getServerSideProps(context) {
   try {
     const { goal } = context.params;
@@ -28,16 +22,7 @@ export async function getServerSideProps(context) {
     };
   }
 }
-
-
-
 export default function GoalDetail({ goalDetails }) {
-    //const router = useRouter();
-    //const { title, description } = router.query;
-  
-    //if (!router.isFallback && !title) {
-   //   return <div>Loading...</div>;
-   // }
     return (
       <div className="container mx-auto p-4">
         {goalDetails.map((goalDetails) => (
