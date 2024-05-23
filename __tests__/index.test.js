@@ -1,4 +1,4 @@
-import { getRandomColor } from './index';
+import { getRandomColor } from '../pages/index';
 
 describe('getRandomColor', () => {
   it('should return a valid color class', () => {
