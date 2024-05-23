@@ -37,7 +37,7 @@ export default function Home({data}) {
       <h1 className="h-20 bg-blue-400 flex items-center justify-center text-2xl font-bold mb-4 " >THE GOALS</h1>
       <div className="h-30 w-15 mt-16 mb-5 ml-7">
         <h2 className="text-5xl text-left font-light" >{Object.keys(data).length} GOALS TO </h2>
-        <h2  className="text-5xl text-left font-light">TRANSFORM OUR</h2>
+        <h2 className="text-5xl text-left font-light">TRANSFORM OUR</h2>
         <h2 className="text-5xl text-left font-light">WORLD</h2>
       </div>
       <div className="grid grid-cols-2 gap-4">
